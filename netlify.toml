@@ -1,0 +1,7 @@
+[build]
+  functions = "netlify/functions"
+  publish   = "."
+
+# Run zoom-reminder every 5 minutes to catch the 15-min window
+[functions."zoom-reminder"]
+  schedule = "*/5 * * * *"

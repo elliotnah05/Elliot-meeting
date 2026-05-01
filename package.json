@@ -1,0 +1,8 @@
+{
+  "name": "elliotnah-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio backend functions",
+  "dependencies": {
+    "googleapis": "^140.0.0"
+  }
+}
